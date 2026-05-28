@@ -12,11 +12,11 @@ This repository includes:
 This is the official implementation for the following papers:
 
 - **"Subcortical Shape Variations and Their Associations with Cognition Acr oss the 8th Decade of Life: A Study in the Lothian Birth Cohort 1936"**,  
-  M. Hernandez, W. Park, et al.  
+  Maria del C. Valdes-Hernandez*, Wonjung Park*, Joanna Moodie, Susana Mu\~noz Maniega, Janie Corley, Fraser N. Sneden, Mark E. Bastin, Joanna M. Wardlaw, Simon R. Cox, Jinah Park
   All data are available through the `Edinburgh Database`.
 
 - **"AI-based Deformable Hippocampal Mesh Reflects Hippocampal Morphological Characteristics in Relation to Cognition in Healthy Older Adults"**,  
-  W. Park, M. Hernandez, et al.  
+  W. Park*, M. Hernandez*, et al.  
   *NeuroImage* (2025).  
   DOI: 10.1016/j.neuroimage.2025.121145
 
