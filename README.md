@@ -1,4 +1,4 @@
-```md
+
 # Brain Subcortical Structure Modeling and Analysis Codes
 
 Brain Subcortical Structure Mesh Reconstruction from Template Meshes for Cross-sectional and Longitudinal Analysis.
@@ -11,7 +11,7 @@ This repository includes:
 
 This is the official implementation for the following papers:
 
-- **"Subcortical Shape Variations and Their Associations with Cognition Across the 8th Decade of Life: A Study in the Lothian Birth Cohort 1936"**,  
+- **"Subcortical Shape Variations and Their Associations with Cognition Acr oss the 8th Decade of Life: A Study in the Lothian Birth Cohort 1936"**,  
   M. Hernandez, W. Park, et al.  
   All data are available through the `Edinburgh Database`.
 
@@ -53,4 +53,4 @@ The overall pipeline is illustrated below.
 The longitudinal shape modeling framework is illustrated below.
 
 ![longi_method](image/longi_method.png)
-```
+
