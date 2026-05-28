@@ -1,23 +1,56 @@
-# BrainSubcorticalStrucutre
-Brain Subcortical Strucutre Mesh Reconstruction from Template Mesh
+```md
+# Brain Subcortical Structure Modeling and Analysis Codes
 
-This is the official code for the paper <b>"AI-based deformable hippocampal mesh reflects hippocampal morphological characteristics in relation to cognition in healthy older adults"</b>, W. Park., M. Hernandez, et al., medRxiv.
-doi: https://doi.org/10.1101/2024.10.28.24316272.
+Brain Subcortical Structure Mesh Reconstruction from Template Meshes for Cross-sectional and Longitudinal Analysis.
 
-This is the code for the pipeline of subcortical structure reconstruction from a template mesh.
-We provide the codes for
-1. generation of template mesh
-2. Optimization of individual subcortical structures from the template mesh with the deep learning architecture (pointnet-based).
-3. Extraction of the local deformity from the template mesh.
+This repository includes:
+- A shape reconstruction framework based on template meshes for cross-sectional and longitudinal shape modeling.
+- Statistical shape analysis methods for cross-sectional and longitudinal studies using linear regression, ANCOVA, and linear mixed-effects models.
 
-We provide the template meshes in ```whole_brain_strucutre/temp_meshes``` as below.
+## Publications
+
+This is the official implementation for the following papers:
+
+- **"Subcortical Shape Variations and Their Associations with Cognition Across the 8th Decade of Life: A Study in the Lothian Birth Cohort 1936"**,  
+  M. Hernandez, W. Park, et al.  
+  All data are available through the `Edinburgh Database`.
+
+- **"AI-based Deformable Hippocampal Mesh Reflects Hippocampal Morphological Characteristics in Relation to Cognition in Healthy Older Adults"**,  
+  W. Park, M. Hernandez, et al.  
+  *NeuroImage* (2025).  
+  DOI: 10.1016/j.neuroimage.2025.121145
+
+---
+
+## Overview
+
+This repository provides the complete pipeline for subcortical structure reconstruction from template meshes.
+
+The repository includes:
+1. Generation of template meshes.
+2. Optimization of individual subcortical structures from template meshes using a PointNet-based deep learning framework.
+3. Extraction of local deformities from template meshes.
+4. Shape-to-clinical factor association analysis provided in the `analysis_code` folder.
+
+Template meshes are provided in `whole_brain_structure/temp_meshes` as shown below.
 
 <p align="center">
-<img src="image/subcortical_areas.png" width="50%" alt="template meshes of subcortical structures">
+<img src="image/subcortical_areas.png" width="50%" alt="Template meshes of subcortical structures">
 </p>
 
-The overall pipeline is following.
+---
+
+## Overall Pipeline
+
+The overall pipeline is illustrated below.
 
 ![ai_method](image/ai_method.png)
 
+---
 
+## Longitudinal Shape Modeling
+
+The longitudinal shape modeling framework is illustrated below.
+
+![longi_method](image/longi_method.png)
+```
